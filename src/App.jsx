@@ -2,10 +2,13 @@ import { BrowserRouter, Routes,  Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
 import AboutPage from "./pages/AboutPage";
-import ProjectPage from "./pages/CoursesPage";
 import ContactPage from "./pages/ContactPage";
 import { Navbar, StarsCanvas } from "./components";
 import Registration from "./pages/Registration";
+import DegreeCourses from "./pages/DegreeCourses";
+import DiplomaCourses from "./pages/DiplomaCourses";
+import Information from "./pages/Information";
+import CoursesPage from "./pages/CoursesPage";
 
 
 
@@ -17,9 +20,12 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/aboutpage" element={<AboutPage />} />
-          <Route path="/projectpage" element={<ProjectPage />} />
+          <Route path="/coursespage" element={<CoursesPage />} />
           <Route path="/contactpage" element={<ContactPage />} />
           <Route path="/registration" element={<Registration />} />
+          <Route path="/degree" element={<DegreeCourses />} />
+          <Route path="/diploma" element={<DiplomaCourses />} />
+          <Route path="/information" element={<Information />} />
         </Routes>
         <StarsCanvas></StarsCanvas>
         <Footer />

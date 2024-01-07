@@ -25,7 +25,7 @@ const Hero = () => {
             {" "}Computer Center
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Best Computer Classes Since 2006 <br className="sm:block hidden" />
+            Best Computer Classes Since 2008 <br className="sm:block hidden" />
           </p>
         </div>
       </div>

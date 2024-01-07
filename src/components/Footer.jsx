@@ -35,12 +35,12 @@ const Footer = () =>{
               <ul className="footer-links">
                 <li>
                   <a >
-                    More Station Road, Nechua, jabalpur,
+                    Vikash Computer, Station Road, Nechua, Jabalpur,
                   </a>
                 </li>
                 <li>
                   <a>
-                    Gopalganj 841504
+                    Gopalganj 841503
                   </a>
                 </li>
               </ul>

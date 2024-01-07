@@ -25,21 +25,26 @@ const Habout = () => {
           in the field of Information Technology since it's inception in 2008.
           <br />
           <br />
-          <div className='flex items-center justify-between'>
+          <div className="flex items-center justify-between">
             <div>
-              WORK TIMING :<br /> Monday - saturday <br />10:00 am - 06:00 pm
+              WORK TIMING :<br /> Monday - saturday <br />
+              10:00 am - 06:00 pm
             </div>
             <div>
-              LOCATION :<br /> More Station Road, Nechua, jabalpu <br />Gopalganj-841504
+              LOCATION :<br /> Vikash Computer, Station Road, Nechua, Jabalpur{" "}
+              <br />
+              Gopalganj - 841503
             </div>
           </div>
         </motion.p>
-        <button
-          type="submit"
-          className="bg-primary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md my-6  shadow-primary"
-        >
-          About Us
-        </button>
+        <a href="/aboutpage">
+          <button
+            type="submit"
+            className="bg-primary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md my-6  shadow-primary"
+          >
+            About Us
+          </button>
+        </a>
       </div>
     </div>
   );

@@ -476,30 +476,7 @@ const Registration = () => {
           </tbody>
         </table>
 
-        <div className="flex flex-row gap-10">
-          <label className="flex w-1/2 flex-col">
-            <span className="text-white font-medium mb-4">Password</span>
-            <input
-              type="email"
-              name="email"
-              onChange={handleChange}
-              placeholder="Enter your Password"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
-            />
-          </label>
-          <label className="flex w-1/2 flex-col">
-            <span className="text-white font-medium mb-4">
-              Confirm Password
-            </span>
-            <input
-              type="email"
-              name="email"
-              onChange={handleChange}
-              placeholder="Re-enter Your Password"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
-            />
-          </label>
-        </div>
+      
 
         <p>&nbsp; &nbsp;Pay Rs 500/- and register as our student</p>
         <button

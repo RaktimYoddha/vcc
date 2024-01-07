@@ -1,6 +1,6 @@
 import { Works } from "../components";
 
-const ProjectPage = ()=>{
+const CoursesPage = ()=>{
 
     return(
         <div className="h-screen">
@@ -10,4 +10,4 @@ const ProjectPage = ()=>{
     );
 
 }
-export default ProjectPage;
+export default CoursesPage;
