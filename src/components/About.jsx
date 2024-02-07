@@ -87,7 +87,7 @@ const About = () => {
         </div>
         <div className="w-1/2 mt-20">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.3051836332565!2d92.66167067525687!3d23.73649417867985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x374d932e6aa49045%3A0xd107cfbea6e4cdbc!2sMizoram%20University!5e0!3m2!1sen!2sin!4v1700895415885!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3567.82077595333!2d84.3114514!3d26.590125900000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39930a2ab09f71db%3A0xed97be4feb786052!2sVIKASH%20COMPUTER%20CENTER!5e0!3m2!1sen!2sin!4v1707323794782!5m2!1sen!2sin"
             width="600"
             height="450"
             frameBorder="0"

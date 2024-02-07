@@ -50,4 +50,4 @@ const Habout = () => {
   );
 }
 
-export default Habout
+export default Habout;
